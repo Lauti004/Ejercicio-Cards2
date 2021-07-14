@@ -110,3 +110,29 @@ body {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .top-container {
+        padding: 1.2em;
+    }
+    .bottom-container {
+        flex-direction: column;
+    }
+    .container-monthly{
+        border-radius: 0;
+    }
+    .container-why {
+        border-bottom-left-radius: 8px;
+    }
+    .container-middle {
+        width: 100%;
+        padding: 1.2em;
+    }
+}
